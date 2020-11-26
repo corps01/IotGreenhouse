@@ -1,5 +1,47 @@
 .App {
   text-align: center;
+  background-color: whitesmoke;
+}
+
+* {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicial{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+.btnPlus {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 35px;
+  line-height: 1.33;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+
+}
+
+.fondo-col{
+  background-image: url(./imagenes/invernadero_col.jpg);
+}
+
+
+.jumbo-container{
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: black;
+  font-weight: 500;
+
 }
 
 .App-logo {
@@ -36,3 +78,4 @@
     transform: rotate(360deg);
   }
 }
+
